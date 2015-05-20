@@ -1,13 +1,13 @@
-package com.alpha.demo.crawler;
+package com.alpha.crawler;
 
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
 
+import com.alpha.crawler.model.AbstractCategory;
+import com.alpha.crawler.parse.HtmlParser;
 import org.apache.log4j.Logger;
 
-import com.alpha.demo.crawler.model.AbstractCategory;
-import com.alpha.demo.crawler.parse.HtmlParser;
-import com.alpha.demo.crawler.write.ExcelWriter;
+import com.alpha.crawler.write.ExcelWriter;
 
 public class Worker {
 	

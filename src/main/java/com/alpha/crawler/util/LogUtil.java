@@ -1,4 +1,4 @@
-package com.alpha.demo.crawler.util;
+package com.alpha.crawler.util;
 
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;

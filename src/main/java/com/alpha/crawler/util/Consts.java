@@ -13,7 +13,7 @@
 /////////////////////////////////////////////////////////////////
 //
 //
-package com.alpha.demo.crawler.util;
+package com.alpha.crawler.util;
 
 import java.io.File;
 import java.io.FileInputStream;

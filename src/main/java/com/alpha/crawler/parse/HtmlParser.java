@@ -1,23 +1,22 @@
 
-package com.alpha.demo.crawler.parse;
+package com.alpha.crawler.parse;
 
 import java.io.IOException;
 import java.util.List;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
+import com.alpha.crawler.model.AbstractCategory;
+import com.alpha.crawler.util.ParseHtmlException;
 import org.apache.log4j.Logger;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-import com.alpha.demo.crawler.Worker;
-import com.alpha.demo.crawler.model.AbstractCategory;
-import com.alpha.demo.crawler.model.Category;
-import com.alpha.demo.crawler.util.NoSubCategoryException;
-import com.alpha.demo.crawler.util.ParseHtmlException;
-
+import com.alpha.crawler.Worker;
+import com.alpha.crawler.model.Category;
+import com.alpha.crawler.util.NoSubCategoryException;
 
 public class HtmlParser {
 	

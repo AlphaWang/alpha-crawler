@@ -21,7 +21,13 @@
 		<version>1.7.2</version>
 	</dependency>
 
-	<dependency>
+    <dependency>
+      <groupId>com.sun.jersey</groupId>
+      <artifactId>jersey-client</artifactId>
+      <version>1.19</version>
+    </dependency>
+
+    <dependency>
 		<groupId>net.sourceforge.jexcelapi</groupId>
 		<artifactId>jxl</artifactId>
 		<version>2.6.12</version>
@@ -44,7 +50,7 @@
 			  <manifest>
 				<addDefaultImplementationEntries>false</addDefaultImplementationEntries>
 				<addClasspath>true</addClasspath>
-				<mainClass>com.alpha.demo.crawler.StartUp</mainClass>
+				<mainClass>com.alpha.crawler.StartUp</mainClass>
 			  </manifest>
 			  <manifestEntries>
 				<Class-Path>lib/jsoup-1.7.2.jar lib/jxl-2.6.12.jar lib/log4j-1.2.17.jar</Class-Path>

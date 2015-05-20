@@ -1,7 +1,7 @@
-package com.alpha.demo.crawler;
+package com.alpha.crawler;
 
-import com.alpha.demo.crawler.util.Consts;
-import com.alpha.demo.crawler.util.LogUtil;
+import com.alpha.crawler.util.Consts;
+import com.alpha.crawler.util.LogUtil;
 
 public class StartUp {
 	

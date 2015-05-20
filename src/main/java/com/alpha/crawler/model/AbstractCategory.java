@@ -13,7 +13,7 @@
 /////////////////////////////////////////////////////////////////
 //
 //
-package com.alpha.demo.crawler.model;
+package com.alpha.crawler.model;
 
 import java.util.Collection;
 

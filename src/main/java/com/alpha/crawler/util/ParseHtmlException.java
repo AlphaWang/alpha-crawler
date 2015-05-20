@@ -13,11 +13,11 @@
 /////////////////////////////////////////////////////////////////
 //
 //
-package com.alpha.demo.crawler.util;
+package com.alpha.crawler.util;
 
-public class NoSubCategoryException extends ParseHtmlException {
+public class ParseHtmlException extends Exception {
 
-	public NoSubCategoryException(String message) {
+	public ParseHtmlException(String message) {
 		super(message);
 	}
 

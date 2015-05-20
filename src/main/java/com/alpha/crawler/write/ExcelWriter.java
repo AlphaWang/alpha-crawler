@@ -13,7 +13,7 @@
 /////////////////////////////////////////////////////////////////
 //
 //
-package com.alpha.demo.crawler.write;
+package com.alpha.crawler.write;
 
 import java.io.File;
 import java.io.IOException;
@@ -22,6 +22,9 @@ import java.net.URL;
 import java.util.HashSet;
 import java.util.Set;
 
+import com.alpha.crawler.Worker;
+import com.alpha.crawler.model.AbstractCategory;
+import com.alpha.crawler.util.Consts;
 import jxl.Cell;
 import jxl.Workbook;
 import jxl.write.Label;
@@ -33,10 +36,6 @@ import jxl.write.biff.RowsExceededException;
 
 import org.apache.log4j.Logger;
 import org.jsoup.helper.StringUtil;
-
-import com.alpha.demo.crawler.Worker;
-import com.alpha.demo.crawler.model.AbstractCategory;
-import com.alpha.demo.crawler.util.Consts;
 
 public class ExcelWriter {
 	private static final Logger logger = Logger.getLogger(ExcelWriter.class);
