@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Class-Path: lib/jsoup-1.7.2.jar lib/jxl-2.6.12.jar lib/log4j-1.2.17.ja
+ r gson-2.3.1.jar jsoup-1.7.2.jar jersey-client-1.19.jar jersey-core-1
+ .19.jar jsr311-api-1.1.1.jar jxl-2.6.12.jar log4j-1.2.17.jar
+Build-Jdk: 1.7.0_65
+Built-By: Alpha
+Created-By: IntelliJ IDEA
+Main-Class: com.alpha.crawler.StartUp
+
